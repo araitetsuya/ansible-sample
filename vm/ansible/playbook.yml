@@ -1,0 +1,6 @@
+---
+- name: deploy server
+  hosts: server
+  roles:
+    - role: nginx
+
